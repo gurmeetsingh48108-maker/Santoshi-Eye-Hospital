@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santoshi Eye Hospital & Vision Centre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <!-- 1. HEADER & NAVBAR -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#header" class="logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="logoGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#0B3C5D"/>
+              <stop offset="1" stop-color="#14B8A6"/>
+            </linearGradient>
+          </defs>
+          <path d="M20 10C10 10 2 20 2 20C2 20 10 30 20 30C30 30 38 20 38 20C38 20 30 10 20 10ZM20 26C16.686 26 14 23.314 14 20C14 16.686 16.686 14 20 14C23.314 14 26 16.686 26 20C26 23.314 23.314 26 20 26Z" fill="url(#logoGrad)"/>
+          <circle cx="20" cy="20" r="3" fill="#14B8A6"/>
+        </svg>
+        <div class="logo-text">
+          <span class="logo-main">Santoshi</span>
+          <span class="logo-sub">Eye Hospital & Vision Centre</span>
+        </div>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#header" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#specialist" class="nav-link">Our Specialist</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#reviews" class="nav-link">Testimonials</a>
+        <button class="btn btn-teal nav-btn book-btn">Book Appointment</button>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&q=80&w=1920" alt="Doctor conducting an eye examination">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="hero-content glass anti-gravity" style="background: rgba(11, 60, 93, 0.4); padding: 40px; border-color: rgba(255,255,255,0.1);">
+        <h1 class="hero-title">Santoshi Eye Hospital & Vision Centre - Kalayat</h1>
+        <p class="hero-subtitle">Trusted Eye Care For Brighter, Clearer Vision</p>
+        <button class="btn btn-teal book-btn">Book Appointment</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. OVERVIEW & STATS BLOCK -->
+  <section class="overview" id="about">
+    <div class="container">
+      <div class="overview-grid glass anti-gravity overview-card">
+        <div class="overview-content">
+          <h2>Santoshi Eye Hospital</h2>
+          <h4 class="text-teal" style="margin-bottom: 20px;">Comprehensive Eye Care for All Generations</h4>
+          <p>Located in the heart of Ward No-2, Kalayat, Haryana, we provide world-class ophthalmic treatments utilizing advanced diagnostic tools and precision surgical technology. Experience comprehensive care from routine checkups to complex surgical interventions.</p>
+          <button class="btn btn-outline-teal book-btn">Read More</button>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-badge glass anti-gravity">
+            <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            <span class="stat-text">10+ Years Of Experience</span>
+          </div>
+          <div class="stat-badge glass anti-gravity">
+            <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span class="stat-text">99% Success Rate</span>
+          </div>
+          <div class="stat-badge glass anti-gravity">
+            <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span class="stat-text">15+ Advanced Eye Services</span>
+          </div>
+          <div class="stat-badge glass anti-gravity">
+            <svg class="stat-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+            <span class="stat-text">10,000+ Happy Patients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. OUR SERVICES -->
+  <section class="section-padding" id="services">
+    <div class="container">
+      <div class="services-header">
+        <h2>Our Services</h2>
+      </div>
+      <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card glass anti-gravity">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800" alt="Comprehensive Eye Checkups">
+          </div>
+          <div class="service-content">
+            <h3>Comprehensive Eye Checkups</h3>
+            <p style="color: var(--text-light); font-size: 0.95rem;">A thorough assessment of your visual health, including visual acuity testing, eye pressure evaluation, and complete screening for common eye diseases.</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="service-card glass anti-gravity">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=800" alt="Cataract Consultation & Treatment">
+          </div>
+          <div class="service-content">
+            <h3>Cataract Consultation & Treatment</h3>
+            <p style="color: var(--text-light); font-size: 0.95rem;">Specialized diagnostics for lens opacity and custom treatment planning with premium intraocular lens (IOL) options to restore clear vision.</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="service-card glass anti-gravity">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=800" alt="General Optometry">
+          </div>
+          <div class="service-content">
+            <h3>General Optometry</h3>
+            <p style="color: var(--text-light); font-size: 0.95rem;">Expert vision testing, precise glass prescriptions, contact lens fittings, and standard visual health assessments using modern technology.</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="service-card glass anti-gravity">
+          <div class="service-img">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" alt="Pediatric Vision Care">
+          </div>
+          <div class="service-content">
+            <h3>Pediatric Vision Care</h3>
+            <p style="color: var(--text-light); font-size: 0.95rem;">Gentle, child-friendly eye examinations to detect vision development issues early, squint assessment, and specialized correction options.</p>
+          </div>
+        </div>
+      </div>
+      <div class="services-action">
+        <button class="btn btn-outline-teal book-btn">Book Consultation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. WHY CHOOSE US -->
+  <section class="why-choose-us">
+    <div class="container why-grid">
+      <div>
+        <h2 class="why-title">Why Choose Us</h2>
+        <div class="feature-list">
+          <div class="feature-item glass anti-gravity" style="background: rgba(255,255,255,0.05); padding: 20px; border-color: rgba(255,255,255,0.1);">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Comprehensive Eye Care</h4>
+              <p>From routine vision checks to complex advanced surgeries.</p>
+            </div>
+          </div>
+          <div class="feature-item glass anti-gravity" style="background: rgba(255,255,255,0.05); padding: 20px; border-color: rgba(255,255,255,0.1);">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Advanced Diagnostic Care</h4>
+              <p>Utilizing state-of-the-art optical coherence tomography (OCT) and trusted field analyzers.</p>
+            </div>
+          </div>
+          <div class="feature-item glass anti-gravity" style="background: rgba(255,255,255,0.05); padding: 20px; border-color: rgba(255,255,255,0.1);">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.42 4.58a5.4 5.4 0 0 0-7.65 0l-.77.78-.77-.78a5.4 5.4 0 0 0-7.65 0C1.46 6.7 2.17 10.77 12 19.88c9.83-9.11 10.54-13.17 8.42-15.3z"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Compassionate Patient Care</h4>
+              <p>Specialized care tailored carefully for elderly patients and children.</p>
+            </div>
+          </div>
+          <div class="feature-item glass anti-gravity" style="background: rgba(255,255,255,0.05); padding: 20px; border-color: rgba(255,255,255,0.1);">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <div class="feature-text">
+              <h4>Affordable Excellence</h4>
+              <p>Delivering world-class ophthalmic treatments accessible to all.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <!-- Right side graphic or leave empty for balance -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EXPERT SPECIALIST PROFILE -->
+  <section class="specialist" id="specialist">
+    <div class="container">
+      <div class="specialist-grid">
+        <div class="specialist-img-wrap anti-gravity">
+          <div class="specialist-img glass">
+            <img src="https://images.unsplash.com/photo-1612349317150-e410f624c427?auto=format&fit=crop&q=80&w=600" alt="Leading Ophthalmologist">
+          </div>
+          <div class="specialist-badge glass">
+            <h3 class="text-teal">Dr. Specialist Name</h3>
+            <p style="font-size: 0.9rem; color: var(--primary-blue); font-weight: 600;">Chief Ophthalmologist</p>
+          </div>
+        </div>
+        <div class="specialist-content">
+          <h4 class="text-teal" style="margin-bottom: 10px;">Expert Eye Specialist</h4>
+          <h2>Dedicated To Protecting Your Vision</h2>
+          <p class="specialist-subtitle">MBBS, MS Ophthalmology</p>
+          <div class="glass anti-gravity" style="padding: 24px; margin-top: 20px;">
+            <p>With over two decades of rigorous surgical experience, our Chief Ophthalmologist is dedicated to delivering standard-setting patient care. Specializing in advanced cataract procedures, corneal treatments, and refractive surgeries.</p>
+            <p>Passionate about preventative eye health practices, they ensure that every patient—from young children to the elderly—receives the personalized, compassionate care they deserve with cutting-edge technology.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CLINIC GALLERY & TRUST SIGNALS -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="gallery-header">
+        <h2>Clinic Images</h2>
+      </div>
+      <div class="gallery-slider">
+        <div class="gallery-item glass anti-gravity">
+          <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=600" alt="Hospital Reception">
+        </div>
+        <div class="gallery-item glass anti-gravity">
+          <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=600" alt="Advanced Diagnostic Lab">
+        </div>
+        <div class="gallery-item glass anti-gravity">
+          <img src="https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=600" alt="Operation Theater">
+        </div>
+        <div class="gallery-item glass anti-gravity">
+          <img src="https://images.unsplash.com/photo-1538108149393-cebb47acddb2?auto=format&fit=crop&q=80&w=600" alt="Waiting Area">
+        </div>
+      </div>
+    </div>
+    
+    <div class="intermediate-banner">
+      <div class="container">
+        <h2>Expert Ophthalmology With Compassionate Patient Care</h2>
+        <button class="btn btn-white book-btn">Book Appointment</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. GOOGLE REVIEWS & TESTIMONIALS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <h2>What Our Patients Say</h2>
+      
+      <div class="trust-badge-google glass anti-gravity">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+        <div>
+          <div style="font-weight: 700; color: var(--primary-blue);">4.4 Stars based on Google Reviews</div>
+          <div class="stars">★★★★<span style="opacity:0.5">★</span> <span style="font-size:0.9rem; color:var(--text-light);">GOOD</span></div>
+        </div>
+      </div>
+
+      <div class="review-slider glass anti-gravity review-card">
+        <div class="review-header">
+          <div class="reviewer-avatar">S</div>
+          <div class="reviewer-info">
+            <h4>Sunil Kumar</h4>
+            <div class="stars">★★★★★</div>
+          </div>
+        </div>
+        <p class="review-text">"Excellent hygiene and top-notch facilities. My cataract surgery was completely pain-free with a very fast recovery time. The staff behavior is very polite and helpful."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="#header" class="footer-logo logo">
+            <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 10C10 10 2 20 2 20C2 20 10 30 20 30C30 30 38 20 38 20C38 20 30 10 20 10ZM20 26C16.686 26 14 23.314 14 20C14 16.686 16.686 14 20 14C23.314 14 26 16.686 26 20C26 23.314 23.314 26 20 26Z" fill="white"/>
+              <circle cx="20" cy="20" r="3" fill="#ffffff"/>
+            </svg>
+            <div class="logo-text" style="color: white;">
+              <span>Santoshi</span>
+              <span style="color: var(--accent-teal);">Eye Hospital & Vision Centre</span>
+            </div>
+          </a>
+          <p class="footer-about">Dedicated to restoring clear sight and confidence through expert ophthalmology and compassionate care in Haryana.</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a6 6 0 0 0-6 6v4a6 6 0 0 0 6 6h3"/></svg></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/></svg></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polyline points="9.75 15.02 15.5 11.75 9.75 8.48"/></svg></a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="footer-title">Contact & Location</h4>
+          <ul class="footer-links">
+            <li>Ward No-2, Kalayat, Haryana 136117</li>
+            <li><a href="tel:+910000000000">+91 00000 00000</a></li>
+          </ul>
+          <div style="margin-top: 20px;">
+            <div class="operating-hours">
+              <span class="dot"></span> Open · Closes 7 PM
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Santoshi Eye Hospital. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Chat Widget -->
+  <a href="https://wa.me/910000000000" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 2.5 11.5a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8.5 8.5z"/></svg>
+  </a>
+
+  <!-- Appointment Booking Modal -->
+  <div id="booking-modal" class="modal">
+    <div class="modal-content glass">
+      <button class="modal-close" id="modal-close" aria-label="Close Modal">&times;</button>
+      <div id="booking-form-container">
+        <div class="modal-header">
+          <h2>Book an Appointment</h2>
+          <p>Provide your details below to schedule your visit with our eye specialists.</p>
+        </div>
+        <form id="booking-form" class="booking-form">
+          <div class="form-group">
+            <label for="patient-name">Patient's Full Name</label>
+            <input type="text" id="patient-name" name="patient-name" placeholder="e.g. John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="patient-phone">Active Mobile Number</label>
+            <input type="tel" id="patient-phone" name="patient-phone" placeholder="e.g. +91 98765 43210" pattern="[0-9+\s\-]{10,15}" required>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="appointment-date">Preferred Date</label>
+              <input type="date" id="appointment-date" name="appointment-date" required>
+            </div>
+            <div class="form-group">
+              <label for="appointment-time">Time Slot</label>
+              <select id="appointment-time" name="appointment-time" required>
+                <option value="" disabled selected>Select a slot</option>
+                <option value="Morning">Morning (09:00 AM - 12:00 PM)</option>
+                <option value="Afternoon">Afternoon (12:00 PM - 04:00 PM)</option>
+                <option value="Evening">Evening (04:00 PM - 07:00 PM)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="consultation-type">Type of Consultation</label>
+            <select id="consultation-type" name="consultation-type" required>
+              <option value="" disabled selected>Select consultation type</option>
+              <option value="Comprehensive Eye Checkup">Comprehensive Eye Checkup</option>
+              <option value="Cataract Consultation & Treatment">Cataract Consultation & Treatment</option>
+              <option value="General Optometry">General Optometry</option>
+              <option value="Pediatric Vision Care">Pediatric Vision Care</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-teal btn-submit">Submit Appointment</button>
+        </form>
+      </div>
+      <div id="booking-success" class="booking-success hidden">
+        <div class="success-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+        <h3>Appointment Requested!</h3>
+        <p>Thank you, <strong id="success-name"></strong>. We have received your request for a <strong id="success-service"></strong> on <strong id="success-date"></strong>.</p>
+        <p class="success-note">Our clinic coordinator will call you at <strong id="success-phone"></strong> within 2 hours to confirm your final slot.</p>
+        <button id="success-close" class="btn btn-teal">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
